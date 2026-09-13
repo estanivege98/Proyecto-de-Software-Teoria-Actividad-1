@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-label="Sansevieria">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf5"/><stop offset="1" stop-color="#e8eadf"/></linearGradient></defs>
+    <rect width="380" height="380" rx="28" fill="url(#bg)"/>
+    <circle cx="300" cy="75" r="52" fill="#dfe7d7" opacity=".7"/>
+    <ellipse cx="190" cy="315" rx="105" ry="18" fill="#d1d4c8"/>
+    <path d="M130 255 L250 255 L238 330 Q190 345 142 330Z" fill="#c9a889"/>
+    <path d="M140 265 L240 265 L232 286 Q190 295 148 286Z" fill="#70543d"/>
+    
+        <path d="M155 300 C145 215 142 110 164 62 C177 35 193 49 190 85 L185 300Z" fill="#567f55"/>
+        <path d="M195 300 C194 190 205 80 236 38 C253 18 259 43 247 78 L220 300Z" fill="#6c945e"/>
+        <path d="M125 300 C115 205 91 108 110 72 C123 48 139 66 143 98 L151 300Z" fill="#456f4b"/>
+        <path d="M160 70 L172 280 M232 54 L210 278 M115 85 L137 280" stroke="#c5c45a" stroke-width="5" fill="none"/>
+        
+    <text x="190" y="365" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#31543a">Sansevieria</text>
+    </svg>

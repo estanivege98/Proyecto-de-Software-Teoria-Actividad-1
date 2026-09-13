@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="190" fill="#F3EFE4"/>
+
+  <!-- ground -->
+  <ellipse cx="200" cy="345" rx="150" ry="18" fill="#DCD3BE"/>
+
+  <!-- stems -->
+  <path d="M150,335 L150,220" stroke="#4F6F52" stroke-width="4" fill="none"/>
+  <path d="M250,335 L250,210" stroke="#4F6F52" stroke-width="4" fill="none"/>
+  <path d="M200,335 L200,180" stroke="#3E5641" stroke-width="4" fill="none"/>
+
+  <!-- broad leaves -->
+  <g fill="#5C7A52">
+    <ellipse cx="130" cy="260" rx="26" ry="15" transform="rotate(-25 130 260)"/>
+    <ellipse cx="270" cy="250" rx="26" ry="15" transform="rotate(25 270 250)"/>
+    <ellipse cx="170" cy="300" rx="24" ry="14" transform="rotate(-15 170 300)"/>
+    <ellipse cx="230" cy="300" rx="24" ry="14" transform="rotate(15 230 300)"/>
+  </g>
+
+  <!-- big rounded flower clusters made of many small dots -->
+  <g>
+    <circle cx="150" cy="205" r="42" fill="#7C8FC7" opacity="0.25"/>
+    <circle cx="250" cy="195" r="42" fill="#8C7CC7" opacity="0.25"/>
+    <circle cx="200" cy="150" r="52" fill="#7C8FC7" opacity="0.25"/>
+
+    <g fill="#7C8FC7">
+      <circle cx="130" cy="190" r="9"/><circle cx="150" cy="180" r="9"/><circle cx="170" cy="192" r="9"/>
+      <circle cx="135" cy="212" r="9"/><circle cx="160" cy="205" r="9"/><circle cx="180" cy="215" r="9"/>
+      <circle cx="145" cy="230" r="9"/><circle cx="168" cy="228" r="9"/>
+    </g>
+    <g fill="#9B8AD1">
+      <circle cx="230" cy="180" r="9"/><circle cx="252" cy="172" r="9"/><circle cx="272" cy="185" r="9"/>
+      <circle cx="235" cy="202" r="9"/><circle cx="258" cy="198" r="9"/><circle cx="276" cy="208" r="9"/>
+      <circle cx="248" cy="220" r="9"/><circle cx="266" cy="222" r="9"/>
+    </g>
+    <g fill="#7C8FC7">
+      <circle cx="170" cy="130" r="10"/><circle cx="195" cy="118" r="10"/><circle cx="222" cy="128" r="10"/>
+      <circle cx="160" cy="155" r="10"/><circle cx="185" cy="145" r="10"/><circle cx="212" cy="150" r="10"/><circle cx="236" cy="150" r="10"/>
+      <circle cx="175" cy="175" r="10"/><circle cx="200" cy="172" r="10"/><circle cx="226" cy="176" r="10"/>
+    </g>
+    <g fill="#B7A9E0">
+      <circle cx="200" cy="130" r="4"/><circle cx="180" cy="150" r="4"/><circle cx="220" cy="152" r="4"/>
+      <circle cx="150" cy="200" r="4"/><circle cx="255" cy="190" r="4"/>
+    </g>
+  </g>
+</svg>

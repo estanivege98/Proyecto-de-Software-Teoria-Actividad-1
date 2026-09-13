@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo estático de plantas de interior y exterior.">
+  <title>Jardín & Verde | Catálogo de plantas</title>
+  <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="marca" href="#inicio" aria-label="Jardín y Verde, inicio">
+        <span class="marca-icono">✦</span>
+        <span>Jardín <em>&amp;</em> Verde</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#plantas">Plantas</a>
+        <a href="#responsable">Responsable</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="contenedor hero-contenido">
+        <div>
+          <p class="eyebrow">CATÁLOGO BOTÁNICO</p>
+          <h1>Un pequeño jardín, contado planta por planta.</h1>
+          <p class="bajada">Explorá las especies cultivadas en el jardín y consultá una ficha de cuidados para cada una.</p>
+          <a class="boton boton-principal" href="#plantas">Explorar plantas</a>
+        </div>
+        <div class="hero-ilustracion" aria-hidden="true">
+          <span>🌿</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="plantas">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <p class="eyebrow">COLECCIÓN</p>
+          <h2>Elegí una categoría</h2>
+          <p>La selección funciona únicamente con HTML y CSS, sin JavaScript.</p>
+        </div>
+
+        <div class="categorias">
+          <input type="radio" name="categoria" id="interior" checked>
+          <input type="radio" name="categoria" id="exterior">
+          <div class="selector" role="tablist" aria-label="Categoría de plantas">
+            <label for="interior" role="tab">Interior</label>
+            <label for="exterior" role="tab">Exterior</label>
+          </div>
+
+          <section class="plantas-panel panel-interior" aria-labelledby="interior">
+            <div class="panel-titulo">
+              <span>01</span>
+              <div><h3>Plantas de interior</h3><p>Especies pensadas para espacios luminosos y protegidos.</p></div>
+            </div>
+            <div class="grid-plantas">
+              <article class="tarjeta">
+                <img src="imágenes/monstera-deliciosa.svg" alt="Ilustración de Monstera deliciosa">
+                <div class="tarjeta-cuerpo"><span class="etiqueta">Interior</span><h4>Monstera deliciosa</h4><p>Costilla de Adán</p><a class="boton boton-info" href="info/monstera-deliciosa.pdf" download>+ info</a></div>
+              </article>
+              <article class="tarjeta">
+                <img src="imágenes/sansevieria.svg" alt="Ilustración de Sansevieria">
+                <div class="tarjeta-cuerpo"><span class="etiqueta">Interior</span><h4>Sansevieria</h4><p>Lengua de suegra</p><a class="boton boton-info" href="info/sansevieria.pdf" download>+ info</a></div>
+              </article>
+              <article class="tarjeta">
+                <img src="imágenes/spathiphyllum.svg" alt="Ilustración de Spathiphyllum">
+                <div class="tarjeta-cuerpo"><span class="etiqueta">Interior</span><h4>Spathiphyllum</h4><p>Lirio de la paz</p><a class="boton boton-info" href="info/spathiphyllum.pdf" download>+ info</a></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="plantas-panel panel-exterior" aria-labelledby="exterior">
+            <div class="panel-titulo">
+              <span>02</span>
+              <div><h3>Plantas de exterior</h3><p>Especies para patios, balcones y sectores de jardín.</p></div>
+            </div>
+            <div class="grid-plantas">
+              <article class="tarjeta">
+                <img src="imágenes/lavanda.svg" alt="Ilustración de Lavanda">
+                <div class="tarjeta-cuerpo"><span class="etiqueta">Exterior</span><h4>Lavandula</h4><p>Lavanda</p><a class="boton boton-info" href="info/lavanda.pdf" download>+ info</a></div>
+              </article>
+              <article class="tarjeta">
+                <img src="imágenes/romero.svg" alt="Ilustración de Romero">
+                <div class="tarjeta-cuerpo"><span class="etiqueta">Exterior</span><h4>Salvia rosmarinus</h4><p>Romero</p><a class="boton boton-info" href="info/romero.pdf" download>+ info</a></div>
+              </article>
+              <article class="tarjeta">
+                <img src="imágenes/hibisco.svg" alt="Ilustración de Hibisco">
+                <div class="tarjeta-cuerpo"><span class="etiqueta">Exterior</span><h4>Hibiscus</h4><p>Hibisco</p><a class="boton boton-info" href="info/hibisco.pdf" download>+ info</a></div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-suave" id="responsable">
+      <div class="contenedor dos-columnas">
+        <div><p class="eyebrow">QUIÉN ESTÁ DETRÁS</p><h2>Sobre el responsable</h2></div>
+        <div><p><strong>Nombre Apellido</strong> mantiene este pequeño catálogo y se ocupa del cultivo y cuidado de las plantas del jardín.</p><p>Este bloque es deliberadamente sencillo para que el cliente pueda reemplazar el texto por sus datos reales sin modificar la estructura del sitio.</p></div>
+      </div>
+    </section>
+
+    <section class="seccion" id="contacto">
+      <div class="contenedor contacto">
+        <div><p class="eyebrow">CONTACTO</p><h2>¿Querés saber más?</h2><p>Completá estos datos de contacto. El formulario es visual y no envía información todavía.</p></div>
+        <form class="formulario" action="#" method="post">
+          <label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
+          <label for="apellido">Apellido</label><input id="apellido" name="apellido" type="text" placeholder="Tu apellido">
+          <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="nombre@ejemplo.com">
+          <label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" placeholder="+54 9 ...">
+          <button class="boton boton-principal" type="submit">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="contenedor"><p>© 2026 Jardín &amp; Verde · Sitio estático HTML + CSS</p></div></footer>
+</body>
+</html>

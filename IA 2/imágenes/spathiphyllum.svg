@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-label="Spathiphyllum">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf5"/><stop offset="1" stop-color="#e8eadf"/></linearGradient></defs>
+    <rect width="380" height="380" rx="28" fill="url(#bg)"/>
+    <circle cx="300" cy="75" r="52" fill="#dfe7d7" opacity=".7"/>
+    <ellipse cx="190" cy="315" rx="105" ry="18" fill="#d1d4c8"/>
+    <path d="M130 255 L250 255 L238 330 Q190 345 142 330Z" fill="#c9a889"/>
+    <path d="M140 265 L240 265 L232 286 Q190 295 148 286Z" fill="#70543d"/>
+    
+        <path d="M190 300 C178 235 175 155 190 82" stroke="#31543a" stroke-width="8" fill="none"/>
+        <path d="M188 150 C125 145 105 92 135 67 C180 55 204 105 188 150Z" fill="#7fa66f"/>
+        <path d="M192 205 C125 205 105 157 135 135 C180 128 207 170 192 205Z" fill="#4f7b55"/>
+        <path d="M193 115 C215 85 250 84 263 108 C250 144 217 145 193 115Z" fill="#6c945e"/>
+        <path d="M208 125 C221 105 238 98 251 101" stroke="#f4f0e6" stroke-width="6" fill="none"/>
+        
+    <text x="190" y="365" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#31543a">Spathiphyllum</text>
+    </svg>

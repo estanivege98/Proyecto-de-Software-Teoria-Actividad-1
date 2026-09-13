@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="190" fill="#F3EFE4"/>
+
+  <!-- tall sword leaves -->
+  <g stroke-linejoin="round">
+    <path d="M200,290 C185,220 178,140 195,55 C200,45 205,45 210,55 C214,140 208,220 205,290 Z" fill="#3E5641"/>
+    <path d="M170,290 C158,225 150,150 158,80 C162,68 168,68 172,80 C178,150 178,225 178,290 Z" fill="#4F6F52"/>
+    <path d="M232,290 C226,225 226,150 236,80 C240,68 246,68 248,80 C252,150 244,225 234,290 Z" fill="#4F6F52"/>
+    <path d="M143,288 C137,235 138,175 152,120 C156,110 160,110 162,120 C158,175 154,235 152,288 Z" fill="#5C7A52"/>
+    <path d="M258,288 C255,235 254,175 240,120 C238,110 234,110 232,120 C238,175 244,235 248,288 Z" fill="#5C7A52"/>
+
+    <!-- variegated edge stripes -->
+    <path d="M195,60 C179,142 186,220 200,288" fill="none" stroke="#C9D68C" stroke-width="3" opacity="0.7"/>
+    <path d="M172,85 C165,150 165,225 176,288" fill="none" stroke="#C9D68C" stroke-width="2.5" opacity="0.6"/>
+    <path d="M240,85 C246,150 248,225 236,288" fill="none" stroke="#C9D68C" stroke-width="2.5" opacity="0.6"/>
+  </g>
+
+  <!-- pot -->
+  <path d="M130,288 L270,288 L252,368 L148,368 Z" fill="#B5654A"/>
+  <ellipse cx="200" cy="288" rx="70" ry="12" fill="#8F4C36"/>
+</svg>

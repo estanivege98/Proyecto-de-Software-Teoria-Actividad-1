@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Jardín · Plantas de interior y exterior</title>
+<meta name="description" content="Catálogo de plantas cultivadas en el jardín: fichas, cuidados e información de contacto.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+
+<header class="cabecera">
+  <nav class="barra-navegacion" aria-label="Navegación principal">
+    <a class="marca" href="#inicio">
+      <span class="marca-icono" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="26" height="26">
+          <path d="M24 44V26" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M24 26C24 12 12 8 6 8C6 20 12 28 24 26Z" fill="currentColor" opacity="0.85"/>
+          <path d="M24 20C24 10 34 6 42 6C42 16 36 24 24 20Z" fill="currentColor" opacity="0.6"/>
+        </svg>
+      </span>
+      Mi Jardín
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+    <label for="menu-toggle" class="menu-toggle-boton" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="enlaces-navegacion">
+      <li><a href="#plantas-interior">Plantas de interior</a></li>
+      <li><a href="#plantas-exterior">Plantas de exterior</a></li>
+      <li><a href="#quienes-somos">Quiénes somos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===================== HERO / INICIO ===================== -->
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <h1>Un rincón verde para cada espacio de tu casa</h1>
+      <p class="hero-parrafo">
+        Reunimos las plantas que cultivamos y cuidamos personalmente, con su ficha de
+        cuidados descargable, para que elijas la compañera verde ideal para tu interior
+        o tu jardín exterior.
+      </p>
+      <div class="hero-botones">
+        <a href="#plantas-interior" class="boton boton-primario">Ver plantas de interior</a>
+        <a href="#plantas-exterior" class="boton boton-secundario">Ver plantas de exterior</a>
+      </div>
+    </div>
+    <div class="hero-imagen" aria-hidden="true">
+      <svg viewBox="0 0 400 400" width="100%" height="100%">
+        <circle cx="200" cy="200" r="190" fill="#EDE8DA"/>
+        <path d="M200,300 C185,220 178,140 195,55 C200,45 205,45 210,55 C214,140 208,220 205,300 Z" fill="#3E5641"/>
+        <path d="M170,300 C158,235 150,160 158,90 C162,78 168,78 172,90 C178,160 178,235 178,300 Z" fill="#4F6F52"/>
+        <path d="M232,300 C226,235 226,160 236,90 C240,78 246,78 248,90 C252,160 244,235 234,300 Z" fill="#4F6F52"/>
+        <path d="M135,300 L265,300 L246,375 L154,375 Z" fill="#B5654A"/>
+        <ellipse cx="200" cy="300" rx="66" ry="12" fill="#8F4C36"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== PLANTAS ===================== -->
+  <section id="plantas" class="seccion-plantas">
+    <div class="contenedor">
+      <h2>Elegí una categoría de plantas</h2>
+      <p class="seccion-intro">
+        Desplegá cada categoría para conocer las plantas disponibles. Cada tarjeta
+        incluye una imagen representativa y un enlace para descargar su ficha completa en PDF.
+      </p>
+
+      <!-- ---- Categoría Interior ---- -->
+      <details id="plantas-interior" class="categoria" open>
+        <summary class="categoria-resumen">
+          <span class="categoria-icono" aria-hidden="true">🏠</span>
+          <span class="categoria-texto">
+            <span class="categoria-titulo">Plantas de interior</span>
+            <span class="categoria-subtitulo">Ideales para living, dormitorios y oficinas</span>
+          </span>
+          <span class="categoria-flecha" aria-hidden="true">＋</span>
+        </summary>
+
+        <div class="grilla-tarjetas">
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/potus.svg" alt="Potus, planta trepadora de hojas acorazonadas" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Potus</h3>
+              <p class="tarjeta-cientifico">Epipremnum aureum</p>
+              <p class="tarjeta-descripcion">Trepadora de bajo mantenimiento, ideal para colgar o dejar caer sobre estanterías.</p>
+              <a class="boton-info" href="info/potus.pdf" download>+ info</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/sansevieria.svg" alt="Sansevieria, planta de hojas altas y erguidas" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Sansevieria</h3>
+              <p class="tarjeta-cientifico">Sansevieria trifasciata</p>
+              <p class="tarjeta-descripcion">Conocida como lengua de suegra, resiste el olvido y purifica el aire durante la noche.</p>
+              <a class="boton-info" href="info/sansevieria.pdf" download>+ info</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/helecho.svg" alt="Helecho Boston, planta de follaje frondoso y colgante" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Helecho Boston</h3>
+              <p class="tarjeta-cientifico">Nephrolepis exaltata</p>
+              <p class="tarjeta-descripcion">Aporta frescura y volumen; agradece la humedad ambiente y la luz filtrada.</p>
+              <a class="boton-info" href="info/helecho.pdf" download>+ info</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/ficus.svg" alt="Ficus Lyrata, planta de hojas grandes en forma de violín" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Ficus Lyrata</h3>
+              <p class="tarjeta-cientifico">Ficus lyrata</p>
+              <p class="tarjeta-descripcion">Hojas grandes y brillantes que aportan una presencia escultural al ambiente.</p>
+              <a class="boton-info" href="info/ficus.pdf" download>+ info</a>
+            </div>
+          </article>
+
+        </div>
+      </details>
+
+      <!-- ---- Categoría Exterior ---- -->
+      <details id="plantas-exterior" class="categoria">
+        <summary class="categoria-resumen">
+          <span class="categoria-icono" aria-hidden="true">🌤️</span>
+          <span class="categoria-texto">
+            <span class="categoria-titulo">Plantas de exterior</span>
+            <span class="categoria-subtitulo">Pensadas para jardín, balcón o patio</span>
+          </span>
+          <span class="categoria-flecha" aria-hidden="true">＋</span>
+        </summary>
+
+        <div class="grilla-tarjetas">
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/rosal.svg" alt="Rosal con flores rojas" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Rosal</h3>
+              <p class="tarjeta-cientifico">Rosa spp.</p>
+              <p class="tarjeta-descripcion">El clásico del jardín; necesita sol pleno y riego regular en la base.</p>
+              <a class="boton-info" href="info/rosal.pdf" download>+ info</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/lavanda.svg" alt="Lavanda con espigas de flores violetas" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Lavanda</h3>
+              <p class="tarjeta-cientifico">Lavandula angustifolia</p>
+              <p class="tarjeta-descripcion">Aromática y resistente a la sequía; perfecta para bordes y macetas soleadas.</p>
+              <a class="boton-info" href="info/lavanda.pdf" download>+ info</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/hortensia.svg" alt="Hortensia con flores agrupadas en tonos violáceos" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Hortensia</h3>
+              <p class="tarjeta-cientifico">Hydrangea macrophylla</p>
+              <p class="tarjeta-descripcion">Grandes racimos de flores cuyo color varía según el pH del suelo.</p>
+              <a class="boton-info" href="info/hortensia.pdf" download>+ info</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-planta">
+            <div class="tarjeta-imagen">
+              <img src="imagenes/geranio.svg" alt="Geranio con flores rosadas agrupadas" loading="lazy">
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Geranio</h3>
+              <p class="tarjeta-cientifico">Pelargonium spp.</p>
+              <p class="tarjeta-descripcion">Floración abundante casi todo el año; ideal para balcones y ventanas.</p>
+              <a class="boton-info" href="info/geranio.pdf" download>+ info</a>
+            </div>
+          </article>
+
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ===================== QUIÉNES SOMOS ===================== -->
+  <section id="quienes-somos" class="seccion-alterna">
+    <div class="contenedor contenedor-angosto">
+      <h2>Quiénes somos</h2>
+      <p>
+        Este sitio es mantenido de forma artesanal por una familia amante de las plantas,
+        que documenta y comparte el proceso de cuidar su propio jardín. Cada ficha que
+        publicamos surge de la experiencia real de cultivo, ensayo y error en nuestro
+        hogar, tanto en macetas de interior como en los canteros del patio.
+      </p>
+      <p>
+        Nuestro objetivo es simple: acercar información clara y honesta a quienes recién
+        empiezan a formar su propio rincón verde, sin tecnicismos innecesarios.
+      </p>
+      <div class="firma">
+        <span class="firma-nombre">Responsable del sitio</span>
+        <span class="firma-detalle">Familia González · Jardín particular</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section id="contacto" class="seccion-contacto">
+    <div class="contenedor contenedor-angosto">
+      <h2>Información de contacto</h2>
+      <p class="seccion-intro">
+        ¿Tenés dudas sobre alguna planta o querés consultarnos algo? Dejanos tus datos.
+        Este formulario es solo de referencia: por el momento no procesa envíos.
+      </p>
+
+      <form class="formulario-contacto" action="#" method="get">
+        <div class="fila-formulario">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="given-name">
+          </div>
+          <div class="campo">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" autocomplete="family-name">
+          </div>
+        </div>
+        <div class="fila-formulario">
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" autocomplete="email">
+          </div>
+          <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 0000-0000" autocomplete="tel">
+          </div>
+        </div>
+        <div class="campo campo-ancho">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos en qué podemos ayudarte"></textarea>
+        </div>
+        <button type="button" class="boton boton-primario" disabled title="Formulario de ejemplo, sin envío real">
+          Enviar consulta
+        </button>
+        <p class="nota-formulario">* Formulario estático de ejemplo; no envía información a ningún servidor.</p>
+      </form>
+
+      <div class="datos-directos">
+        <div>
+          <span class="dato-etiqueta">Correo</span>
+          <span class="dato-valor">contacto@mijardin.example</span>
+        </div>
+        <div>
+          <span class="dato-etiqueta">Teléfono</span>
+          <span class="dato-valor">+54 9 221 000-0000</span>
+        </div>
+        <div>
+          <span class="dato-etiqueta">Ubicación</span>
+          <span class="dato-valor">La Plata, Buenos Aires, Argentina</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <p>© 2026 Mi Jardín. Fichas e imágenes de ejemplo con fines demostrativos.</p>
+</footer>
+
+</body>
+</html>

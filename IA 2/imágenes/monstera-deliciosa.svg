@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-label="Monstera deliciosa">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf5"/><stop offset="1" stop-color="#e8eadf"/></linearGradient></defs>
+    <rect width="380" height="380" rx="28" fill="url(#bg)"/>
+    <circle cx="300" cy="75" r="52" fill="#dfe7d7" opacity=".7"/>
+    <ellipse cx="190" cy="315" rx="105" ry="18" fill="#d1d4c8"/>
+    <path d="M130 255 L250 255 L238 330 Q190 345 142 330Z" fill="#c9a889"/>
+    <path d="M140 265 L240 265 L232 286 Q190 295 148 286Z" fill="#70543d"/>
+    
+        <path d="M190 300 C125 255 105 170 150 115 C205 48 278 85 288 145 C298 215 244 273 190 300Z" fill="#4f7b55"/>
+        <path d="M205 292 C215 225 215 150 196 95" stroke="#31543a" stroke-width="8" fill="none"/>
+        <path d="M170 135 l45 28 M158 175 l60 15 M175 220 l48 -8 M228 135 l30 -30 M235 175 l48 -25 M232 215 l48 5" stroke="#7fa66f" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="167" cy="155" r="12" fill="#f4f0e6"/><circle cx="173" cy="195" r="11" fill="#f4f0e6"/>
+        
+    <text x="190" y="365" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#31543a">Monstera deliciosa</text>
+    </svg>

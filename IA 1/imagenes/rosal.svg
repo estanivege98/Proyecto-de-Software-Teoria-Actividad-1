@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="190" fill="#F3EFE4"/>
+
+  <!-- ground -->
+  <ellipse cx="200" cy="345" rx="150" ry="18" fill="#DCD3BE"/>
+
+  <!-- stems -->
+  <path d="M200,330 C195,270 190,220 170,180" stroke="#4F6F52" stroke-width="4" fill="none"/>
+  <path d="M200,330 C205,260 215,210 240,160" stroke="#3E5641" stroke-width="4" fill="none"/>
+  <path d="M200,330 C198,250 198,190 200,120" stroke="#4F6F52" stroke-width="4" fill="none"/>
+
+  <!-- leaves -->
+  <g fill="#5C7A52">
+    <ellipse cx="182" cy="230" rx="16" ry="9" transform="rotate(-30 182 230)"/>
+    <ellipse cx="222" cy="210" rx="16" ry="9" transform="rotate(25 222 210)"/>
+    <ellipse cx="190" cy="150" rx="15" ry="8" transform="rotate(-15 190 150)"/>
+    <ellipse cx="215" cy="140" rx="15" ry="8" transform="rotate(20 215 140)"/>
+  </g>
+
+  <!-- roses: layered petal circles -->
+  <g>
+    <circle cx="170" cy="178" r="26" fill="#8C2F3A"/>
+    <circle cx="170" cy="178" r="18" fill="#B23A48"/>
+    <circle cx="170" cy="178" r="10" fill="#D4636F"/>
+
+    <circle cx="240" cy="158" r="22" fill="#8C2F3A"/>
+    <circle cx="240" cy="158" r="15" fill="#B23A48"/>
+    <circle cx="240" cy="158" r="8" fill="#D4636F"/>
+
+    <circle cx="200" cy="115" r="24" fill="#8C2F3A"/>
+    <circle cx="200" cy="115" r="16" fill="#B23A48"/>
+    <circle cx="200" cy="115" r="9" fill="#D4636F"/>
+
+    <circle cx="150" cy="205" r="15" fill="#B23A48"/>
+    <circle cx="150" cy="205" r="8" fill="#D4636F"/>
+  </g>
+</svg>

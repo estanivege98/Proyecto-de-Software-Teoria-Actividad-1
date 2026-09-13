@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-label="Lavandula">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf5"/><stop offset="1" stop-color="#e8eadf"/></linearGradient></defs>
+    <rect width="380" height="380" rx="28" fill="url(#bg)"/>
+    <circle cx="300" cy="75" r="52" fill="#dfe7d7" opacity=".7"/>
+    <ellipse cx="190" cy="315" rx="105" ry="18" fill="#d1d4c8"/>
+    <path d="M130 255 L250 255 L238 330 Q190 345 142 330Z" fill="#c9a889"/>
+    <path d="M140 265 L240 265 L232 286 Q190 295 148 286Z" fill="#70543d"/>
+    
+        <path d="M190 300 C182 235 180 165 192 82" stroke="#527554" stroke-width="7" fill="none"/>
+        <path d="M190 245 C145 220 125 190 120 150 M191 220 C230 190 250 160 252 125" stroke="#6e955f" stroke-width="6" fill="none"/>
+        <g fill="#8065a8">
+          <ellipse cx="190" cy="95" rx="14" ry="25"/><ellipse cx="178" cy="116" rx="14" ry="24"/>
+          <ellipse cx="202" cy="118" rx="14" ry="24"/><ellipse cx="180" cy="143" rx="13" ry="23"/>
+          <ellipse cx="205" cy="145" rx="13" ry="23"/><ellipse cx="152" cy="169" rx="12" ry="21"/>
+          <ellipse cx="229" cy="151" rx="12" ry="21"/>
+        </g>
+        
+    <text x="190" y="365" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#31543a">Lavandula</text>
+    </svg>
